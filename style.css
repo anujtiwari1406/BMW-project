@@ -1,0 +1,220 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+
+
+.navbar {
+    font-family: DM Sans, sans-serif;
+    font-weight: 600;
+    font-size: medium;
+    display: flex;
+
+    align-items: center;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: rgba(215, 214, 214, 0);
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    height: 80px;
+    border-bottom: 2px solid black;
+
+
+}
+
+
+.navbar-pannel {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+
+
+
+
+}
+
+
+.left-side {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nav-element:hover {
+    text-decoration: underline solid #348efe;
+    text-decoration-thickness: 3px;
+}
+
+.nav-element {
+    padding: 0 20px;
+}
+
+.left-side:last-child {
+    padding-right: 0;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+
+
+}
+
+.nav-icon {
+
+    padding-left: 20px;
+    width: 20px;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-image {
+    width: 100%;
+    height: 900px;
+    background-color: cadetblue;
+    background-image: url("images/ruvim-kerimov-AVteVDWXXD0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
